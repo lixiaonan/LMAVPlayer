@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00318CBD1EA4BDF9001A97D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00318CBC1EA4BDF9001A97D9 /* main.m */; };
+		00318CC01EA4BDF9001A97D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00318CBF1EA4BDF9001A97D9 /* AppDelegate.m */; };
+		00318CC31EA4BDF9001A97D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00318CC21EA4BDF9001A97D9 /* ViewController.m */; };
+		00318CC61EA4BDF9001A97D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00318CC41EA4BDF9001A97D9 /* Main.storyboard */; };
+		00318CC81EA4BDF9001A97D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00318CC71EA4BDF9001A97D9 /* Assets.xcassets */; };
+		00318CCB1EA4BDF9001A97D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00318CC91EA4BDF9001A97D9 /* LaunchScreen.storyboard */; };
+		00A6D46E1EA4C0640006037E /* LMMainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D4481EA4C0640006037E /* LMMainNavController.m */; };
+		00A6D46F1EA4C0640006037E /* LMMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D44A1EA4C0640006037E /* LMMainTabBarController.m */; };
+		00A6D4701EA4C0640006037E /* LMVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D44E1EA4C0640006037E /* LMVideoPlayer.m */; };
+		00A6D4711EA4C0640006037E /* LMPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D4511EA4C0640006037E /* LMPlayerModel.m */; };
+		00A6D4721EA4C0640006037E /* LMPlayerStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D4531EA4C0640006037E /* LMPlayerStatusModel.m */; };
+		00A6D4731EA4C0640006037E /* LMAVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D4561EA4C0640006037E /* LMAVPlayerManager.m */; };
+		00A6D4751EA4C0640006037E /* LMBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D45B1EA4C0640006037E /* LMBrightnessView.m */; };
+		00A6D4761EA4C0640006037E /* LMCoverControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D45D1EA4C0640006037E /* LMCoverControlView.m */; };
+		00A6D4771EA4C0640006037E /* LMLandScapeControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D45F1EA4C0640006037E /* LMLandScapeControlView.m */; };
+		00A6D4781EA4C0640006037E /* LMLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D4611EA4C0640006037E /* LMLoadingView.m */; };
+		00A6D4791EA4C0640006037E /* LMPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D4631EA4C0640006037E /* LMPlayerControlView.m */; };
+		00A6D47A1EA4C0640006037E /* LMPortraitControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D4651EA4C0640006037E /* LMPortraitControlView.m */; };
+		00A6D47B1EA4C0640006037E /* LMVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D4671EA4C0640006037E /* LMVideoPlayerView.m */; };
+		00A6D47C1EA4C0640006037E /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D4691EA4C0640006037E /* MMMaterialDesignSpinner.m */; };
+		00A6D47D1EA4C0640006037E /* LMPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D46B1EA4C0640006037E /* LMPlayerViewController.m */; };
+		00A6D47E1EA4C0640006037E /* LMVC1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D46D1EA4C0640006037E /* LMVC1ViewController.m */; };
+		00A6D4811EA4C0710006037E /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6D4801EA4C0710006037E /* UIColor+Hex.m */; };
+		D19EDE918FE75EBFB3B94CAF /* libPods-LMAVPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7A8CD324E0D10EE9BD3716 /* libPods-LMAVPlayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00318CB81EA4BDF9001A97D9 /* LMAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00318CBC1EA4BDF9001A97D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00318CBE1EA4BDF9001A97D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00318CBF1EA4BDF9001A97D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00318CC11EA4BDF9001A97D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00318CC21EA4BDF9001A97D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00318CC51EA4BDF9001A97D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00318CC71EA4BDF9001A97D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00318CCA1EA4BDF9001A97D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00318CCC1EA4BDF9001A97D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A6D4471EA4C0640006037E /* LMMainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMMainNavController.h; sourceTree = "<group>"; };
+		00A6D4481EA4C0640006037E /* LMMainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMMainNavController.m; sourceTree = "<group>"; };
+		00A6D4491EA4C0640006037E /* LMMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMMainTabBarController.h; sourceTree = "<group>"; };
+		00A6D44A1EA4C0640006037E /* LMMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMMainTabBarController.m; sourceTree = "<group>"; };
+		00A6D44C1EA4C0640006037E /* LMPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPlayer.h; sourceTree = "<group>"; };
+		00A6D44D1EA4C0640006037E /* LMVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMVideoPlayer.h; sourceTree = "<group>"; };
+		00A6D44E1EA4C0640006037E /* LMVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMVideoPlayer.m; sourceTree = "<group>"; };
+		00A6D4501EA4C0640006037E /* LMPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPlayerModel.h; sourceTree = "<group>"; };
+		00A6D4511EA4C0640006037E /* LMPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPlayerModel.m; sourceTree = "<group>"; };
+		00A6D4521EA4C0640006037E /* LMPlayerStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPlayerStatusModel.h; sourceTree = "<group>"; };
+		00A6D4531EA4C0640006037E /* LMPlayerStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPlayerStatusModel.m; sourceTree = "<group>"; };
+		00A6D4551EA4C0640006037E /* LMAVPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAVPlayerManager.h; sourceTree = "<group>"; };
+		00A6D4561EA4C0640006037E /* LMAVPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAVPlayerManager.m; sourceTree = "<group>"; };
+		00A6D45A1EA4C0640006037E /* LMBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBrightnessView.h; sourceTree = "<group>"; };
+		00A6D45B1EA4C0640006037E /* LMBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMBrightnessView.m; sourceTree = "<group>"; };
+		00A6D45C1EA4C0640006037E /* LMCoverControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCoverControlView.h; sourceTree = "<group>"; };
+		00A6D45D1EA4C0640006037E /* LMCoverControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCoverControlView.m; sourceTree = "<group>"; };
+		00A6D45E1EA4C0640006037E /* LMLandScapeControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLandScapeControlView.h; sourceTree = "<group>"; };
+		00A6D45F1EA4C0640006037E /* LMLandScapeControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLandScapeControlView.m; sourceTree = "<group>"; };
+		00A6D4601EA4C0640006037E /* LMLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLoadingView.h; sourceTree = "<group>"; };
+		00A6D4611EA4C0640006037E /* LMLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLoadingView.m; sourceTree = "<group>"; };
+		00A6D4621EA4C0640006037E /* LMPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPlayerControlView.h; sourceTree = "<group>"; };
+		00A6D4631EA4C0640006037E /* LMPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPlayerControlView.m; sourceTree = "<group>"; };
+		00A6D4641EA4C0640006037E /* LMPortraitControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPortraitControlView.h; sourceTree = "<group>"; };
+		00A6D4651EA4C0640006037E /* LMPortraitControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPortraitControlView.m; sourceTree = "<group>"; };
+		00A6D4661EA4C0640006037E /* LMVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMVideoPlayerView.h; sourceTree = "<group>"; };
+		00A6D4671EA4C0640006037E /* LMVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMVideoPlayerView.m; sourceTree = "<group>"; };
+		00A6D4681EA4C0640006037E /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		00A6D4691EA4C0640006037E /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		00A6D46A1EA4C0640006037E /* LMPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPlayerViewController.h; sourceTree = "<group>"; };
+		00A6D46B1EA4C0640006037E /* LMPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPlayerViewController.m; sourceTree = "<group>"; };
+		00A6D46C1EA4C0640006037E /* LMVC1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMVC1ViewController.h; sourceTree = "<group>"; };
+		00A6D46D1EA4C0640006037E /* LMVC1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMVC1ViewController.m; sourceTree = "<group>"; };
+		00A6D47F1EA4C0710006037E /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		00A6D4801EA4C0710006037E /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		3AA4CC4CD25C3EEA5F282CB1 /* Pods-LMAVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMAVPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMAVPlayer/Pods-LMAVPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		3B7A8CD324E0D10EE9BD3716 /* libPods-LMAVPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LMAVPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDCF7F0F0753149019386A5 /* Pods-LMAVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMAVPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LMAVPlayer/Pods-LMAVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00318CB51EA4BDF9001A97D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19EDE918FE75EBFB3B94CAF /* libPods-LMAVPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00318CAF1EA4BDF9001A97D9 = {
+			isa = PBXGroup;
+			children = (
+				00318CBA1EA4BDF9001A97D9 /* LMAVPlayer */,
+				00318CB91EA4BDF9001A97D9 /* Products */,
+				72061D4B1840183F6B2DF24B /* Pods */,
+				0BBCAF79210CE5A98FBE2626 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00318CB91EA4BDF9001A97D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00318CB81EA4BDF9001A97D9 /* LMAVPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00318CBA1EA4BDF9001A97D9 /* LMAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				00318CBE1EA4BDF9001A97D9 /* AppDelegate.h */,
+				00318CBF1EA4BDF9001A97D9 /* AppDelegate.m */,
+				00318CC11EA4BDF9001A97D9 /* ViewController.h */,
+				00318CC21EA4BDF9001A97D9 /* ViewController.m */,
+				00A6D4471EA4C0640006037E /* LMMainNavController.h */,
+				00A6D4481EA4C0640006037E /* LMMainNavController.m */,
+				00A6D4491EA4C0640006037E /* LMMainTabBarController.h */,
+				00A6D44A1EA4C0640006037E /* LMMainTabBarController.m */,
+				00A6D46A1EA4C0640006037E /* LMPlayerViewController.h */,
+				00A6D46B1EA4C0640006037E /* LMPlayerViewController.m */,
+				00A6D46C1EA4C0640006037E /* LMVC1ViewController.h */,
+				00A6D46D1EA4C0640006037E /* LMVC1ViewController.m */,
+				00A6D47F1EA4C0710006037E /* UIColor+Hex.h */,
+				00A6D4801EA4C0710006037E /* UIColor+Hex.m */,
+				00A6D44B1EA4C0640006037E /* LMPlayer */,
+				00318CC41EA4BDF9001A97D9 /* Main.storyboard */,
+				00318CC71EA4BDF9001A97D9 /* Assets.xcassets */,
+				00318CC91EA4BDF9001A97D9 /* LaunchScreen.storyboard */,
+				00318CCC1EA4BDF9001A97D9 /* Info.plist */,
+				00318CBB1EA4BDF9001A97D9 /* Supporting Files */,
+			);
+			path = LMAVPlayer;
+			sourceTree = "<group>";
+		};
+		00318CBB1EA4BDF9001A97D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00318CBC1EA4BDF9001A97D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A6D44B1EA4C0640006037E /* LMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				00A6D44C1EA4C0640006037E /* LMPlayer.h */,
+				00A6D44D1EA4C0640006037E /* LMVideoPlayer.h */,
+				00A6D44E1EA4C0640006037E /* LMVideoPlayer.m */,
+				00A6D44F1EA4C0640006037E /* Model */,
+				00A6D4541EA4C0640006037E /* Utility */,
+				00A6D4591EA4C0640006037E /* View */,
+			);
+			path = LMPlayer;
+			sourceTree = "<group>";
+		};
+		00A6D44F1EA4C0640006037E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00A6D4501EA4C0640006037E /* LMPlayerModel.h */,
+				00A6D4511EA4C0640006037E /* LMPlayerModel.m */,
+				00A6D4521EA4C0640006037E /* LMPlayerStatusModel.h */,
+				00A6D4531EA4C0640006037E /* LMPlayerStatusModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00A6D4541EA4C0640006037E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				00A6D4551EA4C0640006037E /* LMAVPlayerManager.h */,
+				00A6D4561EA4C0640006037E /* LMAVPlayerManager.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		00A6D4591EA4C0640006037E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00A6D4661EA4C0640006037E /* LMVideoPlayerView.h */,
+				00A6D4671EA4C0640006037E /* LMVideoPlayerView.m */,
+				00A6D4621EA4C0640006037E /* LMPlayerControlView.h */,
+				00A6D4631EA4C0640006037E /* LMPlayerControlView.m */,
+				00A6D45A1EA4C0640006037E /* LMBrightnessView.h */,
+				00A6D45B1EA4C0640006037E /* LMBrightnessView.m */,
+				00A6D45C1EA4C0640006037E /* LMCoverControlView.h */,
+				00A6D45D1EA4C0640006037E /* LMCoverControlView.m */,
+				00A6D45E1EA4C0640006037E /* LMLandScapeControlView.h */,
+				00A6D45F1EA4C0640006037E /* LMLandScapeControlView.m */,
+				00A6D4601EA4C0640006037E /* LMLoadingView.h */,
+				00A6D4611EA4C0640006037E /* LMLoadingView.m */,
+				00A6D4641EA4C0640006037E /* LMPortraitControlView.h */,
+				00A6D4651EA4C0640006037E /* LMPortraitControlView.m */,
+				00A6D4681EA4C0640006037E /* MMMaterialDesignSpinner.h */,
+				00A6D4691EA4C0640006037E /* MMMaterialDesignSpinner.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BBCAF79210CE5A98FBE2626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A8CD324E0D10EE9BD3716 /* libPods-LMAVPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72061D4B1840183F6B2DF24B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFDCF7F0F0753149019386A5 /* Pods-LMAVPlayer.debug.xcconfig */,
+				3AA4CC4CD25C3EEA5F282CB1 /* Pods-LMAVPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00318CB71EA4BDF9001A97D9 /* LMAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00318CCF1EA4BDF9001A97D9 /* Build configuration list for PBXNativeTarget "LMAVPlayer" */;
+			buildPhases = (
+				199ADCC788590C6FB8DB038A /* [CP] Check Pods Manifest.lock */,
+				00318CB41EA4BDF9001A97D9 /* Sources */,
+				00318CB51EA4BDF9001A97D9 /* Frameworks */,
+				00318CB61EA4BDF9001A97D9 /* Resources */,
+				8D9CF6E77AA505FB83F71E19 /* [CP] Embed Pods Frameworks */,
+				B0494A64799814B1A5A7FA8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMAVPlayer;
+			productName = LMAVPlayer;
+			productReference = 00318CB81EA4BDF9001A97D9 /* LMAVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00318CB01EA4BDF9001A97D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LMIJKPlayer;
+				TargetAttributes = {
+					00318CB71EA4BDF9001A97D9 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 00318CB31EA4BDF9001A97D9 /* Build configuration list for PBXProject "LMAVPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00318CAF1EA4BDF9001A97D9;
+			productRefGroup = 00318CB91EA4BDF9001A97D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00318CB71EA4BDF9001A97D9 /* LMAVPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00318CB61EA4BDF9001A97D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00318CCB1EA4BDF9001A97D9 /* LaunchScreen.storyboard in Resources */,
+				00318CC81EA4BDF9001A97D9 /* Assets.xcassets in Resources */,
+				00318CC61EA4BDF9001A97D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		199ADCC788590C6FB8DB038A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D9CF6E77AA505FB83F71E19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMAVPlayer/Pods-LMAVPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0494A64799814B1A5A7FA8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMAVPlayer/Pods-LMAVPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00318CB41EA4BDF9001A97D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A6D4791EA4C0640006037E /* LMPlayerControlView.m in Sources */,
+				00318CC31EA4BDF9001A97D9 /* ViewController.m in Sources */,
+				00318CC01EA4BDF9001A97D9 /* AppDelegate.m in Sources */,
+				00A6D46F1EA4C0640006037E /* LMMainTabBarController.m in Sources */,
+				00A6D4811EA4C0710006037E /* UIColor+Hex.m in Sources */,
+				00A6D47D1EA4C0640006037E /* LMPlayerViewController.m in Sources */,
+				00A6D4751EA4C0640006037E /* LMBrightnessView.m in Sources */,
+				00A6D4721EA4C0640006037E /* LMPlayerStatusModel.m in Sources */,
+				00318CBD1EA4BDF9001A97D9 /* main.m in Sources */,
+				00A6D4781EA4C0640006037E /* LMLoadingView.m in Sources */,
+				00A6D47B1EA4C0640006037E /* LMVideoPlayerView.m in Sources */,
+				00A6D46E1EA4C0640006037E /* LMMainNavController.m in Sources */,
+				00A6D47C1EA4C0640006037E /* MMMaterialDesignSpinner.m in Sources */,
+				00A6D4761EA4C0640006037E /* LMCoverControlView.m in Sources */,
+				00A6D4731EA4C0640006037E /* LMAVPlayerManager.m in Sources */,
+				00A6D47E1EA4C0640006037E /* LMVC1ViewController.m in Sources */,
+				00A6D4771EA4C0640006037E /* LMLandScapeControlView.m in Sources */,
+				00A6D47A1EA4C0640006037E /* LMPortraitControlView.m in Sources */,
+				00A6D4711EA4C0640006037E /* LMPlayerModel.m in Sources */,
+				00A6D4701EA4C0640006037E /* LMVideoPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00318CC41EA4BDF9001A97D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00318CC51EA4BDF9001A97D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00318CC91EA4BDF9001A97D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00318CCA1EA4BDF9001A97D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00318CCD1EA4BDF9001A97D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00318CCE1EA4BDF9001A97D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00318CD01EA4BDF9001A97D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDCF7F0F0753149019386A5 /* Pods-LMAVPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMAVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.6.LMAVPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00318CD11EA4BDF9001A97D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA4CC4CD25C3EEA5F282CB1 /* Pods-LMAVPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMAVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.6.LMAVPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00318CB31EA4BDF9001A97D9 /* Build configuration list for PBXProject "LMAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00318CCD1EA4BDF9001A97D9 /* Debug */,
+				00318CCE1EA4BDF9001A97D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00318CCF1EA4BDF9001A97D9 /* Build configuration list for PBXNativeTarget "LMAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00318CD01EA4BDF9001A97D9 /* Debug */,
+				00318CD11EA4BDF9001A97D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00318CB01EA4BDF9001A97D9 /* Project object */;
+}
