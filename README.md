@@ -1,4 +1,4 @@
-# LMIJKPlayer
+# LMAVPlayer
 基于苹果原生AVPlayer，支持横屏、竖屏，上下滑动调节音量、屏幕亮度，左右滑动调节播放进度, 支持横竖屏UI不同的完整播放器Demo
 
 ## 特性
@@ -28,7 +28,7 @@
 </br>
 ![演示效果](screen2.gif)
 
-## 如果想使用AVPlayer编写播放器
+## 如果想使用IJKPlayer编写播放器
 请点击[这里](https://github.com/lixiaonan/LMIJKPlayer)
 
 ## 参考链接
