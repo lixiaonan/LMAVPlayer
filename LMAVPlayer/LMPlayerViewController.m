@@ -51,7 +51,7 @@
     [self makePlayViewConstraints];
     
     LMPlayerModel *model = [[LMPlayerModel alloc] init];
-    model.videoURL = [NSURL URLWithString:@"http://baobab.wdjcdn.com/1456734464766B(13).mp4"];
+    model.videoURL = [NSURL URLWithString:@"http://baobb.wdjcdn.com/1456734464766B(13).mp4"];
     model.viewTime = 200;
     model.seekTime = 20;
     

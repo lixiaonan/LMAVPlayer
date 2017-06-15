@@ -187,15 +187,15 @@ typedef NS_ENUM(NSInteger, PanDirection){
  *  @param gesture UITapGestureRecognizer
  */
 - (void)singleTapAction:(UIGestureRecognizer *)gesture {
-    if (gesture.state == UIGestureRecognizerStateRecognized) {
-        
+//    if (gesture.state == UIGestureRecognizerStateRecognized) {
+    
         if (self.playerStatusModel.playDidEnd) { return; }
         if (self.playerControlView.isShowing) {
             [self.playerControlView hideControl];
         } else {
             [self.playerControlView showControl];
         }
-    }
+//    }
 }
 
 /**
@@ -480,6 +480,17 @@ typedef NS_ENUM(NSInteger, PanDirection){
     [self.playerControlView startReadyToPlay];
     
     // 4.监听屏幕旋转
+    [self listeningRotating];
+}
+
+/**
+ *  视频加载失败
+ */
+- (void)loadFailed {
+    // 1. 设置子控制层
+    [self ui];
+    
+    // 2.监听屏幕旋转
     [self listeningRotating];
 }
 
